@@ -1,2 +1,21 @@
-<div id="app"></div>
-<input type="button" value="My boton chido" onclick=""></input>
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>Intercambio app</h1>
+
+    <form onsubmit="event.preventDefault(); hacerIntercambio();">
+      <p>
+        <label for="w3review"
+          >Nombres de las personas separadas por comas:</label
+        >
+      </p>
+      <textarea id="nombres" name="nombres" rows="4" cols="50"></textarea>
+      <br />
+      <input type="submit" value="Hacer intercambio" />
+    </form>
+    <br />
+    <br />
+    <br />
+    <div id="resultado">Mostrar resultado aqui</div>
+  </body>
+</html>
